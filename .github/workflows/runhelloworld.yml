@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # este paso es slo una imposicion de github y pertenece al Marketplace
+    # este paso es solo una imposicion de github y pertenece al Marketplace
     - name: Checkout repository
       uses: actions/checkout@v2
 
