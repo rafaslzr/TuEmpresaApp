@@ -17,7 +17,7 @@ jobs:
 
     # Use a custom action from another repository
     - name: Use Custom Action
-      uses: rafaslzr/TuEmpresaPipelines/blob/main/ejecutanombre.yaml
+      uses: rafaslzr/TuEmpresaPipelines/blob/main/ejecutanombre.yaml@ref
       # Example of passing variables if needed
       #with:
         #example_input: 'value'
