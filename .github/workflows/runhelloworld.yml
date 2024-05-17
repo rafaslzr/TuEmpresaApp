@@ -17,10 +17,10 @@ jobs:
 
     # Use a custom action from another repository
     - name: Use Custom Action
-      uses: rafaslzr/TuEmpresaPipelines/path/to/action@v1
+      uses: rafaslzr/TuEmpresaPipelines/blob/main/ejecutanombre.yaml
       # Example of passing variables if needed
-      with:
-        example_input: 'value'
+      #with:
+        #example_input: 'value'
 
     # Run your bash script
     - name: Execute Bash Script
