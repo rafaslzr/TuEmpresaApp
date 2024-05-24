@@ -26,5 +26,5 @@ jobs:
     - name: Execute Bash Script
       run: |
         chmod +x your-script.sh
-        ./your-script.sh
+        ../helloworld.sh
       shell: bash
