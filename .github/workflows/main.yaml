@@ -7,6 +7,6 @@ on:
 
 jobs:
   call-reusable-pipeline:
-    uses: tuempresa/tuempresapipelines/.github/workflows/pipeline.yaml@main
+    uses: rafaslzr/TuEmpresaPipelines/.github/workflows/pipeline.yaml@main
     with:
       script_path: your-script.sh
